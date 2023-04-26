@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.blanqui {
+    color: #fff;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.neke li{
+    display: inline-block;
+}
+
+.lela {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 100px;
+}
+.fondo-patri {
+    background-color: rgb(3, 29, 53);
+    padding-bottom: 0rem;
+}
+.eze li {
+    display: inline-block;
+    background-color: rgb(167, 146, 122);
+    padding: 30px;
+
+}
+.nuj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 200px;
+    margin-bottom: 0rem;
+}
+
+.bot {
+    color: black;
+}
+
+.imagdezapas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 200px 420px;
+    background-color: rgb(3, 29, 53);
+    
+}
+
+.titulomarcas {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    
+}
+
+.imagenes-zapas {
+    display: flex;
+    justify-content: center;
+}
+
+.fotos-zapas {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-color: rgb(3, 29, 53);
+}
+ .nose {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    
+ }
+.nose li{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 45px;
+    padding-bottom: 0rem ;
+
+   
+}
+.nose p{
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+.footer-section1 {
+    display: flex;
+    justify-content: center;
+    background-color: #6b6666;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.legales {
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px ;
+
+}
+
+.home {
+    background-color: rgb(0, 0, 0);
+}
