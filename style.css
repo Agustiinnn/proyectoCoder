@@ -5,44 +5,7 @@
 
 }
 
-.blanqui {
-    color: #fff;
-    background-color: bisque;
-    padding: 20px;
-}
 
-.neke li{
-    display: inline-block;
-}
-
-.lela {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    padding: 5px 100px;
-}
-.fondo-patri {
-    background-color: rgb(3, 29, 53);
-    padding-bottom: 0rem;
-}
-.eze li {
-    display: inline-block;
-    background-color: rgb(167, 146, 122);
-    padding: 30px;
-
-}
-.nuj {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 200px;
-    margin-bottom: 0rem;
-}
-
-.bot {
-    color: black;
-}
 
 .imagdezapas {
     display: flex;
@@ -50,16 +13,22 @@
     align-items: center;
     height: 200px;
     padding: 200px 420px;
-    background-color: rgb(3, 29, 53);
+    background-color: rgb(0, 0, 0);
     
 }
 
 .titulomarcas {
-    font-size: 80px;
     display: flex;
     justify-content: center;
-    background-color: bisque;
+    background-color: black;
+    margin-bottom: 0rem;
+    color: white;
+    padding-top: 31px;
     
+}
+.titulomarcas p{  
+  font-size: xx-large ;
+
 }
 
 .imagenes-zapas {
@@ -70,33 +39,38 @@
 .fotos-zapas {
     display: flex;
     justify-content: center;
-    width: 60%;
-    background-color: rgb(3, 29, 53);
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
 }
- .nose {
+
+ .hileraszapas {
     display: flex;
     justify-content: space-around;
-    background-color: bisque;
+    background-color: rgb(0, 0, 0);
     
  }
-.nose li{
+.hileraszapas li{
     display: inline-block;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 90px;
+    padding-right:90px;
     font-size: 45px;
-    padding-bottom: 0rem ;
+    padding-bottom: 0rem
 
    
 }
-.nose p{
+.hileraszapas p{
     margin-bottom: 0rem;
     padding-bottom: 0rem;
+    color: white;
+    
 }
 
 .footer-section1 {
     display: flex;
     justify-content: center;
-    background-color: #6b6666;
+    background-color: white;
+
 }
 
 .end {
@@ -106,12 +80,46 @@
 }
 
 .legales {
-    padding-top: 80px;
+    padding-top: 40px;
     padding-left: 100px;
     padding-right: 100px ;
+    margin-bottom: 0rem;
 
 }
 
 .home {
     background-color: rgb(0, 0, 0);
+}
+.contenedor2-carou{
+    width: 75%;
+    background-color: #6b6666;
+}
+.contenedor-carou{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 30px;
+    
+}
+
+.header-inicio{
+    padding-bottom: 120px;
+}
+.section-carus{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.robertito{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.mejor-calidad{
+    background-color: black;
+    color: white;
+}
+.contzapas{
+    width: 100%;
+}
+.footerhombres{
+    width: 100%;
 }

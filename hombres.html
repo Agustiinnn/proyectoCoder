@@ -14,299 +14,397 @@
 
 
     
-    <header class="blanqui">
-        <nav class="neke">
-            <ul class="lela">
-                <li>
-                    <a href="index.html"><img src="imagenes/th.jpg" alt="home" width="40px" height="40px"></a>
-                </li>
-                <li>
-                    <img src="imagenes/nekelogoo-removebg-preview.png" alt="logo de la pagina" height="200px" width="300px">
-                </li>
-                <li>
-                    <div class="buscador">
-                        <input type="text" placeholder="Buscar...">
-                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    <header class="header-inicio">
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="imagenes/nekelogoo-removebg-preview.png" alt="logo de la pagina" height="130px" width="170px"></a><p class="mejor-calidad">--  HOMBRES  --</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NEKE ZAPATILLAS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="hombres.html">Hombres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mujeres.html">Mujeres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zapatillas.html">Zapatillas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="liquidacion.html">Liquidacion</a>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+            </div>
+        </nav>
+   </header>
+
+    <section class="section-carus">
+        <section class="contenedor-carou">
+            <section class="contenedor2-carou">
+                <div id="carouselExampleCaptions1" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                </li>
-                <li>
-                    <a href="Liquidacion.html"><img src="imagenes/carrito.jpg" alt="" height="40px" width="40px"></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
- 
-    <section class="fondo-patri">
-        <nav class="eze">
-            <ul class="nuj">
-                <li>
-                    <a href="index.html" class="bot">Inicio</a>
-                </li>
-                <li>
-                    <a href="Hombres.html"class="bot">Hombres</a>
-                </li>
-                <li>
-                    <a href="Mujeres.html"class="bot">Mujer</a>
-                </li>
-                <li>
-                    <a href="Zapatillas.html"class="bot">Zapatillas</a>
-                </li>
-                <li>
-                    <a href="Liquidacion.html"class="bot">Liquidacion</a>
-                </li>
-            </ul>
-        </nav>
+                    <div class="carousel-inner bg-black">
+                    <div class="carousel-item active">
+                        <img src="imagenes-zapatillas-hombres/adidas1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light">$17.000</h5>
+                        <p class="text-light">Seccion zapatillas Adidas | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/adidas2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$18.700</h5>
+                            <p class="text-light">Seccion zapatillas Adidas | HAY STOCK |</p>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/adidas3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$13.800</h5>
+                            <p class="text-light">Seccion zapatillas Adidas | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </section>
+        
+
+        <section class="contenedor-carou">
+            <section class="contenedor2-carou">
+                <div id="carouselExampleCaptions2" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner bg-black">
+                    <div class="carousel-item active">
+                        <img src="imagenes-zapatillas-hombres/fila1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$16.000</h5>
+                            <p class="text-light">Seccion zapatillas FILA | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/fila2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$14.000</h5>
+                            <p class="text-light">Seccion zapatillas FILA | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/fila3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$17.800</h5>
+                            <p class="text-light">Seccion zapatillas FILA| HAY STOCK |</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </section>
+
+        <section class="contenedor-carou">
+            <section class="contenedor2-carou">
+                <div id="carouselExampleCaptions3" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner bg-black">
+                    <div class="carousel-item active">
+                        <img src="imagenes-zapatillas-hombres/topper1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$13.500</h5>
+                            <p class="text-light">Seccion zapatillas Topper | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/topper2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$12.000</h5>
+                            <p class="text-light">Seccion zapatillas Topper | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/topper3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$11.990</h5>
+                            <p class="text-light">Seccion zapatillas Topper | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
     </section>
 
-    <section class="imagenes-zapas">
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/adidas1.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/adidas2.jpg" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/adidas3.webp" alt="" height="250px" width="250px">
-        </div>
+    <section class="contenedor-carou">
+        <section class="contenedor2-carou">
+            <div id="carouselExampleCaptions4" class="carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner bg-black">
+                <div class="carousel-item active">
+                    <img src="imagenes-zapatillas-hombres/vans1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light">$15.999</h5>
+                        <p class="text-light">Seccion zapatillas Vans | HAY STOCK |</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes-zapatillas-hombres/vans2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light">$16.300</h5>
+                        <p class="text-light">Seccion zapatillas Vans | HAY STOCK |</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes-zapatillas-hombres/vans3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light">$14.500</h5>
+                        <p class="text-light">Seccion zapatillas Vans | HAY STOCK |</p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </section>
+        
+
+        <section class="contenedor-carou">
+            <section class="contenedor2-carou">
+                <div id="carouselExampleCaptions5" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner bg-black">
+                    <div class="carousel-item active">
+                        <img src="imagenes-zapatillas-hombres/reebok1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light">$11.000</h5>
+                        <p class="text-light">Seccion zapatillas Reebok | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/reebok2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$11.000</h5>
+                            <p class="text-light">Seccion zapatillas Reebok  | HAY STOCK |</p>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/reebok3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$9.000</h5>
+                            <p class="text-light">Seccion zapatillas Reebok  | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </section>
+        
+
+        <section class="contenedor-carou">
+            <section class="contenedor2-carou">
+                <div id="carouselExampleCaptions6" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner bg-black">
+                    <div class="carousel-item active">
+                        <img src="imagenes-zapatillas-hombres/NB1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$18.000</h5>
+                            <p class="text-light">Seccion zapatillas New Balance | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/NB2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$16.390</h5>
+                            <p class="text-light">Seccion zapatillas New Balance | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/NB3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$14.999</h5>
+                            <p class="text-light">Seccion zapatillas New Balance | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </section>
+
+        <section class="contenedor-carou">
+            <section class="contenedor2-carou">
+                <div id="carouselExampleCaptions7" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner bg-black">
+                    <div class="carousel-item active">
+                        <img src="imagenes-zapatillas-hombres/nike1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$17.990</h5>
+                            <p class="text-light">Seccion zapatillas Nike | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/nike2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$16.680</h5>
+                            <p class="text-light">Seccion zapatillas Nike | HAY STOCK |</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes-zapatillas-hombres/nike3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">$16.000</h5>
+                            <p class="text-light">Seccion zapatillas Nike| HAY STOCK |</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions7" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions7" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
     </section>
 
-    <section class="marcas-precio">
-        <nav class="nose">
-            <ul>
-                <li>
-                    <p>Adidas $9.000</p>
-                </li>
-                <li>
-                    <p>Adidas $9.500</p>
-                </li>
-                <li>
-                    <p>Adidas $9.999</p>
-                </li>
-            </ul>     
-        </nav>
-    </section>
-
-    <section class="imagenes-zapas">
-       <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/convers1.jpg" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/convers2.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/convers3.jpg" alt="" height="250px" width="250px">
-        </div> 
-    </section>
-
-    <section class="marcas-precio">
-        <nav class="nose">
-            <ul>
-                <li>
-                    <p>convs $10.000</p>
-                </li>
-                <li>
-                    <p>convs $11.000</p>
-                </li>
-                <li>
-                    <p>convs $8.000</p>
-                </li>
-            </ul>     
-        </nav>
-    </section>
-   
-    <section class="imagenes-zapas">
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/fila1.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/fila2.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/fila3.png" alt="" height="250px" width="250px">
-        </div>
-    </section>
-
-    <section class="marcas-precio">
-        <nav class="nose">
-            <ul>
-                <li>
-                    <p>Fila $10.000</p>
-                </li>
-                <li>
-                    <p>Fila $8.000</p>
-                </li>
-                <li>
-                    <p>Fila $9.500</p>
-                </li>
-            </ul>     
-        </nav>
-    </section>
-
-    <section class="imagenes-zapas">
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/NB1.jpg" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/NB2.jpg" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/NB3.jpg" alt="" height="250px" width="250px">
-        </div>
-    </section>
-
-    <section class="marcas-precio">
-        <nav class="nose">
-            <ul>
-                <li>
-                    <p>New.B $9.000</p>
-                </li>
-                <li>
-                    <p>New.B $8.000</p>
-                </li>
-                <li>
-                    <p>New.B $9.500</p>
-                </li>
-            </ul>     
-        </nav>
-    </section>
-    <section class="imagenes-zapas">
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/nike1.jpg" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/nike2.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/nike3.jpg" alt="" height="250px" width="250px">
-        </div>
-    </section>
-
-    <section class="marcas-precio">
-        <nav class="nose">
-            <ul>
-                <li>
-                    <p>Nike $10.000</p>
-                </li>
-                <li>
-                    <p>Nike $8.000</p>
-                </li>
-                <li>
-                    <p>Nike $9.500</p>
-                </li>
-            </ul>     
-        </nav>
-    </section>    <section class="imagenes-zapas">
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/puma1.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/puma2.jpg" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/puma3.png" alt="" height="250px" width="250px">
-        </div>
-    </section>
-
-    <section class="marcas-precio">
-        <nav class="nose">
-            <ul>
-                <li>
-                    <p>Puma $10.000</p>
-                </li>
-                <li>
-                    <p>Puma $8.000</p>
-                </li>
-                <li>
-                    <p>Puma $9.500</p>
-                </li>
-            </ul>     
-        </nav>
-    </section>    <section class="imagenes-zapas">
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/reebok1.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/reebok2.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/reebok3.jpg" alt="" height="250px" width="250px">
-        </div>
-    </section>
-
-    <section class="marcas-precio">
-        <nav class="nose">
-            <ul>
-                <li>
-                    <p>Rebok $8.000</p>
-                </li>
-                <li>
-                    <p>Rebok $8.000</p>
-                </li>
-                <li>
-                    <p>Rebok $9.500</p>
-                </li>
-            </ul>     
-        </nav>
-    </section>
-
-    <section class="imagenes-zapas">
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/topper1.jpg" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/topper2.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/topper3.webp" alt="" height="250px" width="250px">
-        </div>
-    </section>
-
-    <section class="marcas-precio">
-        <nav class="nose">
-            <ul>
-                <li>
-                    <p>Topper $8.000</p>
-                </li>
-                <li>
-                    <p>Topper $8.000</p>
-                </li>
-                <li>
-                    <p>Topper $9.500</p>
-                </li>
-            </ul>     
-        </nav>
-    </section>
-
-    <section class="imagenes-zapas">
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/vans1.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/vans2.webp" alt="" height="250px" width="250px">
-        </div>
-        <div class="fotos-zapas">
-            <img src="imagenes-zapatillas-hombres/vans3.jpg" alt="" height="250px" width="250px">
-        </div>
-    </section>
-
-    <section class="marcas-precio">
-        <nav class="nose">
-            <ul>
-                <li>
-                    <p>Vans $10.000</p>
-                </li>
-                <li>
-                    <p>Vans $8.000</p>
-                </li>
-                <li>
-                    <p>Vans $9.500</p>
-                </li>
-            </ul>     
-        </nav>
+    <section class="contenedor-carou">
+        <section class="contenedor2-carou">
+            <div id="carouselExampleCaptions8" class="carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner bg-black">
+                <div class="carousel-item active">
+                    <img src="imagenes-zapatillas-hombres/convers1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light">$15.000</h5>
+                        <p class="text-light">Seccion zapatillas Converse | HAY STOCK |</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes-zapatillas-hombres/convers2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light">$15.000</h5>
+                        <p class="text-light">Seccion zapatillas Converse | HAY STOCK |</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes-zapatillas-hombres/convers3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light">$15.000</h5>
+                        <p class="text-light">ASeccion zapatillas Converse | HAY STOCK |</p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions8" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions8" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
     </section>
 
 
-    <footer>
+</section>
+   <footer>
         <section class="footer-section1">
             <div class="end">
                 <div class="legales">
@@ -330,12 +428,16 @@
                     <p>Whatsapp</p>
                     <p>3412595173</p>
                 </div>
-                <div class="legales">
-                    <p></p>
-                </div>
             </div>
         </section>
     </footer>
+
+
+
+
+    
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
